@@ -22,7 +22,8 @@ else {
         result++;
         if(isEven(result)) 
         {
-        Console.WriteLine(result);
+            Console.Write($"{result}, ");
         }
     }
+    Console.WriteLine();
 };
